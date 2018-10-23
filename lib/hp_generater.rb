@@ -1,10 +1,12 @@
 require "hp_generater/version"
+require "hp_generater/CssTemplate"
+require "hp_generater/HtmlTemplate"
 
 module HpGenerater
 
   def self.mkdir(title)
-    hoge
-    fuga
+    html = self.html_template
+    css = self.css_template
     Dir::mkdir("title")
     Dir.chdir("#{Dir.pwd}/title")
     File.open("index.html","w") do |file|

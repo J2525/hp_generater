@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require 'hp_generater'
+
+HpGenerater.mkdir(ARGV[0])
