@@ -18,22 +18,35 @@ class HtmlTemplate
 
      <body>
        <!----- ヘッダー ----->
-       <header>ヘッダー</header>
-       <nav>ナビ</nav>
+       <header class="header">
+         <h1 class="header_title">サイトのタイトル</h1>
+       </header>
+       <nav class="global-nav">
+         <ul class="global-nav_items">
+           <li class="global-nav_item">ナビ</li>
+           <li class="global-nav_item">ナビ</li>
+           <li class="global-nav_item">ナビ</li>
+           <li class="global-nav_item">ナビ</li>
+           <li class="global-nav_item">ナビ</li>
+           <li class="global-nav_item">ナビ</li>
+         </ul>
+       </nav>
        <!----- ヘッダー END ----->
 
        <!----- メインコンテンツ ----->
-       <article>
-         <h1>タイトル</h1>
-         <section>
-           <h2>タイトル</h2>
-           <p>コンテンツの内容</p>
+       <article class="article">
+         <h1 class="article_title">タイトル</h1>
+         <section class="article_section">
+           <p class="article_section-paragraph">コンテンツ1</p>
+           <p class="article_section-paragraph">コンテンツ2</p>
+           <p class="article_section-paragraph">コンテンツ3</p>
+           <p class="article_section-paragraph">コンテンツ4</p>
          </section>
        </article>
        <!----- メインコンテンツ END ----->
 
        <!----- フッター ----->
-       <footer>フッター</footer>
+       <footer class="footer">フッター</footer>
        <!----- フッター END ----->
      </body>
     </html>

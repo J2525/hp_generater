@@ -1,6 +1,6 @@
 require "hp_generater/version"
-require "hp_generater/CssTemplate"
-require "hp_generater/HtmlTemplate"
+require "hp_generater/css_template"
+require "hp_generater/html_template"
 
 module HpGenerater
 
