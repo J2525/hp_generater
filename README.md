@@ -1,6 +1,6 @@
 # HpGenerater
 
-This gem makes stationery of "html&css"
+This gem makes template of "html&css"
 
 ## Installation
 
