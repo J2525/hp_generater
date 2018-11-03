@@ -23,8 +23,7 @@ Or install it yourself as:
 ```ruby
 $ hp_generater xxx
 ```
-make directory "xxx"
-and in this directory , make file "index.html & sample.css"
+make directory "xxx" , make file "index.html & sample.css" in this directory.
 
 
 ## License
